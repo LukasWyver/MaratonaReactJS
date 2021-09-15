@@ -1,0 +1,48 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    text-align: center; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+
+    .valid-keys{
+      font-size:10rem;
+      font-weight:bold; 
+      min-width: 600px; 
+      border-bottom: solid 2px var(--text);
+      text-transform: uppercase;
+
+        .matched {
+            background-color: var(--bg-text-input);
+            color: var(--text-input);
+        }
+
+        .remainder {
+            opacity: 0.5;
+        }
+    }
+
+    .typed-keys{
+        margin-top: 20px;
+        font-size: 2.5rem;
+        max-width: 600px;
+        overflow: hidden;
+    }
+
+    .completed-words{
+        width: max-content;
+        height: 100vh;
+        overflow-y: scroll;
+        position: fixed;
+        top: 0;
+        left: 0;
+        text-align: left;
+        padding: 20px 40px;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        opacity: 0.5;
+    }
+}

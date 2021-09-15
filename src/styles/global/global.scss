@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+/* importando a font */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} /* reset global */
+
+:root {
+  --background: #e1e1e1;
+  --text: #1e1e1e;
+  --text-input: #282c34;
+  --bg-text-input: #9EC5AB;
+} /* variavéls de cores */
+
+html { 
+  font-size: 62.5%;
+}  /* a cada 1rem será considerado 10px */
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  color: var(--text);
+  background-color: var(--background)
+}
+
+body {
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rajdhani', sans-serif;
+}
