@@ -1,5 +1,5 @@
 .container{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     text-align: center; 
     align-items: center;
@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     
-
     .valid-keys{
       font-size:10rem;
       font-weight:bold; 
@@ -38,7 +37,7 @@
         overflow-y: scroll;
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         text-align: left;
         padding: 20px 40px;
         font-size: 1.8rem;
